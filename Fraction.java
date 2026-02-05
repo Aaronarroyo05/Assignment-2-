@@ -1,5 +1,6 @@
 /**
- * CSCI 271 - Assignment II
+ * Aaron Arroyo
+ * CSCI 271 - Assignment 2
  * Fraction class implementing exact arithmetic with normalization.
  */
 public class Fraction {
@@ -9,7 +10,6 @@ public class Fraction {
 
     /**
      * Constructs a new Fraction a/b in reduced, normalized form.
-     * Normalization rules:
      *  - Denominator is never negative (if b < 0, flip both signs).
      *  - gcd(|a|, |b|) is used to reduce.
      *  - Denominator may be 0 to represent Infinity, -Infinity, or NaN.
@@ -35,10 +35,6 @@ public class Fraction {
         this(a, 1);
     }
 
-    /**
-     * Euclidean algorithm for gcd, always returns > 0.
-     * Handles the (0,0) case by returning 1 as per assignment spec.
-     */
     private static long gcd(long a, long b) {
         if (a < 0) a = -a;
         if (b < 0) b = -b;
@@ -130,12 +126,6 @@ public class Fraction {
 
     /**
      * Returns a new Fraction equal to this^n, where n may be zero or negative.
-     * Basic rules:
-     *  - x^0 = 1 for any x != 0/0
-     *  - (0/0)^n = NaN
-     *  - For n > 0: (a/b)^n = a^n / b^n
-     *  - For n < 0: (a/b)^n = (b^|n|) / (a^|n|)
-     * Note: long overflow is ignored as per typical assignment scope.
      */
     public Fraction pow(int n) {
         // NaN stays NaN for any exponent
@@ -170,8 +160,6 @@ public class Fraction {
             return new Fraction(numPow, denPow);
         }
     }
-
-    // Getters (optional, but can help in testing if needed)
     public long getNumerator() {
         return numerator;
     }
