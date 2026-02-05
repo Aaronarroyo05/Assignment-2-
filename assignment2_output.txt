@@ -1,0 +1,43 @@
+Script started on 2026-02-05 14:10:36-05:00 [TERM="xterm-256color" TTY="/dev/pts/26" COLUMNS="76" LINES="46"]
+[?2004h]0;arroyoa2@thur114-hp1: ~/CSCI271_Assignment2[01;32marroyoa2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment2[00m$ exit[2Plsexitscp arroyoa2@hopper.winthrop.edu:CSCI271_Assignment1_AaronArroyo_W30717729.java .[A[1Pjava MultipleStudentGrades.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc MultipleStudentGrades.java [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P MultipleStudentGrades.java
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscp arroyoa2@hopper.winthrop.edu:CSCI271_Assignment1_AaronArroyo_W30717729.java .[Aexit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Plsexit[Kjava TestFraction
+[?2004l=== Task 1: Normalization & Constructors ===
+Test 1a (6, -24) expected -1/4: -1/4
+Test 1b (0, 8) expected 0: 0
+Test 1c (16) expected 16: 16
+
+=== Task 2: toString() Special Values ===
+Test 2a (8, -6) expected -4/3: -4/3
+Test 2b (23, 0) expected Infinity: Infinity
+Test 2c (-6, 0) expected -Infinity: -Infinity
+Test 2d (7, 1) expected 7: 7
+Test 2e (0, 0) expected NaN: NaN
+
+=== Task 3: Arithmetic Operations ===
+Add 1/3 + 1/6 expected 1/2: 1/2
+Subtract 5/4 - 1/2 expected 3/4: 3/4
+Multiply 2/3 * 3/5 expected 2/5: 2/5
+Divide 4/5 / 2/3 expected 6/5: 6/5
+Negate 3/7 expected -3/7: -3/7
+Negate Infinity expected -Infinity: -Infinity
+Negate -Infinity expected Infinity: Infinity
+Negate NaN expected NaN: NaN
+Infinity + 1/2 expected Infinity: Infinity
+Infinity + -Infinity expected NaN: NaN
+NaN + 1/3 expected NaN: NaN
+
+=== Task 3: pow(int n) ===
+(2/3)^3 expected 8/27: 8/27
+(5/7)^0 expected 1: 1
+(2/5)^-2 expected 25/4: 25/4
+NaN^2 expected NaN: NaN
+Infinity^2 expected Infinity: Infinity
+
+=== Full Example from Assignment Description ===
+Expected 240/133: 240/133
+[?2004h]0;arroyoa2@thur114-hp1: ~/CSCI271_Assignment2[01;32marroyoa2@thur114-hp1[00m:[01;34m~/CSCI271_Assignment2[00m$ exit
+[?2004lexit
+
+Script done on 2026-02-05 14:11:45-05:00 [COMMAND_EXIT_CODE="0"]
