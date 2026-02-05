@@ -1,16 +1,13 @@
 /**
- * CSCI 271 - Assignment II
+ * Aaron Arroyo
+ * CSCI 271 - Assignment 2
  * Test program for the Fraction class.
- *
- * Each test block is labeled with the condition it checks.
  */
 public class TestFraction {
 
     public static void main(String[] args) {
 
         System.out.println("=== Task 1: Normalization & Constructors ===");
-
-        // Condition: reduction and sign normalization
         // new Fraction(6, -24) -> -1/4
         Fraction t1a = new Fraction(6, -24);
         System.out.println("Test 1a (6, -24) expected -1/4: " + t1a);
